@@ -1,0 +1,130 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .dashboard-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Notification Icon */
+  .notification-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 34px;
+    color: orange;
+    cursor: pointer;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Balance Section */
+  .balance-section {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .balance-amount {
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+  }
+  
+  /* Button Section */
+  .button-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+  }
+  
+  .button:hover {
+    background-color: #e69500;
+  }
+  
+  /* Recent Transactions Section */
+  .transactions-section {
+    margin-top: 30px;
+  }
+  
+  .transaction {
+    background-color: #f9f9f9;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  }
+  
+  .transaction p {
+    margin: 5px 0;
+  }
+  
+  /* Top Gainers Section */
+  .top-gainers-section {
+    margin-top: 30px;
+  }
+  
+  .top-gainers-section ul {
+    list-style-type: none;
+  }
+  
+  .top-gainers-section li {
+    background-color: #e9e9e9;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+  }
+  
+  .top-gainers-section li strong {
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .dashboard-container {
+      width: 95%;
+    }
+  
+    .button {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  
+    .button-section {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
